@@ -1,8 +1,15 @@
+:root{
+    --background:#252525;
+    --text-white:#ffffff;
+
+}
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 .pizzanav {
@@ -14,8 +21,60 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    background-color: var(--background);
+    padding: 20px;
 }
+.navbar-list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-white);
+    gap: 5px;
+}
+.navbar-list li {
+    color: var(--text-white);
+}
+.logonav{
+    width: 40px;
+    
+}
+.carritonav{
+    width: 30px;
+    height: 30px;
+}
+#section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    background: var(--background);
+}
+.section-1-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.section-1-info h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 80px;
+    color: var(--text-white);
+}
+.section-1-info p{
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 60px;
+    color: var(--text-white);
+}
+section-1-imagen{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
 
 .btn {
     background: linear-gradient(90deg, #FFA100 0%, #fb103d);
