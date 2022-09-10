@@ -88,13 +88,25 @@ section-1-imagen{
 .btna {
     color: white;
 }
+#section-2{
+    background: var(--background);
+}
+
+#section-2 h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-white);
+}
 
 .divrecomendación {
     display: flex;
     align-content: center;
     justify-content: center;
     gap: 25px;
+    
 }
+    
+
 
 .imgr1 {
     height: 50px;
@@ -125,5 +137,6 @@ section-1-imagen{
     padding: 5px 10px;
     border-radius: 5px;
     gap: 5px;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
 
 }
