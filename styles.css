@@ -198,3 +198,10 @@ section-1-imagen {
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
 
 }
+hr{
+    width: 20px;
+    height: 3px;
+    background: linear-gradient(90deg, #FFA100 0%, #fb103d);
+    border: none;
+    border-radius: 5px;
+}
