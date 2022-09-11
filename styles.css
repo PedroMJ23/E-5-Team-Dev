@@ -298,6 +298,13 @@ body {
     font-weight: 400;
     font-size: 15px;
 }
+hr {
+    width: 20px;
+    height: 3px;
+    background: linear-gradient(90deg, #FFA100 0%, #fb103d);
+    border: none;
+    border-radius: 5px;
+}
 
 .section-4 {
     font-family: 'Montserrat';
