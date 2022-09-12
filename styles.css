@@ -443,3 +443,6 @@ footer div {
     text-decoration: none;
     gap: 28px;
 }
+footer span{
+    color: red;
+}
