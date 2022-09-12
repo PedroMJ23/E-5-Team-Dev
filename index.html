@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./animaciones.css">
 </head>
 
 <body>
@@ -16,10 +17,10 @@
             <div class="navbar-list">
                 <ul>
                     <li>
-                        <img src="./assets/home-logo.png" class="logonav" alt="logo-nav">
+                        <div class="home-nav"><img src="./assets/Home.png" class="homenav" alt="Home-nav">Home </div>
                     </li>
-                    <li>Home</li>
-                    <li><img src="./assets/carrito-logo.png" class="carritonav" alt="logo-carrito"></li>
+                    <li><img src="./assets/Icon Cart.png" class="carritonav" alt="Carrito-nav"></li>
+                    <li><img src="./assets/Icon Profile.png" class="profilenav" alt="Profile-nav"></li>
 
                 </ul>
 
@@ -29,18 +30,22 @@
     <main>
         <section id="section-1">
             <div class="section-1-info">
-                <h1>Si tenes Zappi, tenes Nucba.</h1>
+                <h1>Si tenes Zappi,</h1>
+                <h2>tenes Nucba.</h2>
                 <p>Buscá lo que quieras y nucba te quedes sin comida.</p>
 
                 <button class="btn"><a href="#" class="btna"> VER MÁS</a></button>
             </div>
             </div>
-            <div class="section-1-imagen2">
-                <img src="./assets/image 34.png" alt="">
+            <div class="img-sec1">
+                <div class="section-1-imagen">
+                    <img src="./assets/pizza 1.png" alt="">
+                </div>
+                <div class="section-1-imagen2">
+                    <img src="./assets/image 34.png" alt="">
+                </div>
             </div>
-            <div class="section-1-imagen">
-                <img src="./assets/pizza 1.png" alt="">
-            </div>
+
         </section>
 
         <section id="section-2">
@@ -48,25 +53,33 @@
                 <h2> Hoy te recomendamos</h2>
                 <div class="divrecomendación">
                     <div class="divr1">
-                        <div class="divrimg"><img src="./assets/recomendacion1.png" class="imgr1" alt=""></div>
+                        <div class="divrimg"><img src="./assets/Photo Menu(8).png" class="imgr1" alt=""></div>
                         <div class="divrecomendacion1">
-                            <p>Benazziana</p>
+                            <h5>Bennazianna</h5>
                             <p>La más completa</p>
-
+                            <h3>$3650</h3>
                         </div>
-                        <button class="rbtn"> <a href="#" class="btna"> Agregar</a></button>
+                        <div><button class="rbtn"> <a href="#" class="btna"> Agregar</a></button></div>
                     </div>
                     <div class="divr1">
                         <div class="divrimg">
-                            <img src="./assets/tronco pizza.png" alt="troncos">
+                            <img src="./assets/Photo Menu(9).png" alt="troncos">
                         </div>
-                        <p>Tronco-Pizza</p>
-                        <button class="rbtn"> <a href="#" class="btna"> Agregar</a></button>
+                        <div class="divrecomendacion1">
+                            <h5>Tronco-Pizza</h5>
+                            <p>Para todo el día</p>
+                            <h3>$870</h3>
+                        </div>
+                        <div><button class="rbtn"> <a href="#" class="btna"> Agregar</a></button></div>
                     </div>
                     <div class="divr1">
-                        <img src="./assets/Papas Provenzal.png" alt="papas">
-                        <p> Papas|Provenzal</p>
-                        <button class="rbtn"> <a href="#" class="btna"> Agregar</a></button>
+                        <img src="./assets/Photo Menu(10).png" alt="papas">
+                        <div class="divrecomendacion1">
+                            <h5>Papas|Provenzal</h5>
+                            <p>Van como piña</p>
+                            <h3>$360</h3>
+                        </div>
+                        <div><button class="rbtn"> <a href="#" class="btna"> Agregar</a></button></div>
                     </div>
                 </div>
 
@@ -75,7 +88,7 @@
         <section class="section-3">
             <h4>Categorias</h4>
             <div class="categoria-1">
-                <div class="categoria1"><img src="./assets/image 34.png" class="pizza1" alt="">
+                <div class="categoria1"><img src="./assets/image 34.png" alt="">
                     <p>Pizzas</p>
                     <hr>
                 </div>
@@ -107,58 +120,170 @@
             </div>
         </section>
         <section class="section-4">
-            <p>Los más populares</p>
+            <p class="section-4-titulo">Los más populares</p>
             <div class="populares-1">
                 <div class="populares1">
                     <div class="populares">
-                        <img src="./assets/photo-menus/Photo Menu.png" alt="">
+
+                        <div class="popularesdiv">
+                            <div>
+                                <div class="divpimg">
+                                    <img src="./assets/photo-menus/Photo Menu.png" alt="">
+                                </div>
+                            </div>
+                            <div class="popularesdiv2">
+                                <div>
+                                    <h5>La Mr.Pit</h5>
+                                    <p>Sólo para expertos</p>
+                                    <h3>$350</h3>
+
+                                </div>
+                                <div class="divbtn"><button class="rbtn"> <a href="#" class="btna"> Agregar</a></button>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                     <div class="populares">
-                        <img src="./assets/photo-menus/Photo Menu (1).png" alt="">
+                        <div class="popularesdiv">
+                            <div class="divpimg">
+                                <img src="./assets/photo-menus/Photo Menu (1).png" alt="">
+                            </div>
+                            <div class="popularesdiv2">
+                                <div>
+                                    <h5>La Mr.Pit</h5>
+                                    <p>Sólo para expertos</p>
+                                    <h3>$350</h3>
+
+                                </div>
+                                <div class="divbtn"><button class="rbtn"> <a href="#" class="btna"> Agregar</a></button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="populares">
-                        <img src="./assets/photo-menus/Photo Menu (2).png" alt="">
+                        <div class="popularesdiv">
+                            <div class="divpimg">
+                                <img src="./assets/photo-menus/Photo Menu (2).png" alt="">
+                            </div>
+                            <div class="popularesdiv2">
+                                <div>
+                                    <h5>La Mr.Pit</h5>
+                                    <p>Sólo para expertos</p>
+                                    <h3>$380</h3>
+
+                                </div>
+                                <div class="divbtn"><button class="rbtn"> <a href="#" class="btna"> Agregar</a></button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="populares">
-                        <img src="./assets/photo-menus/Photo Menu (3).png" alt="">
+                        <div class="popularesdiv">
+                            <div class="divpimg">
+                                <img src="./assets/photo-menus/Photo Menu (3).png" alt="">
+                            </div>
+                            <div class="popularesdiv2">
+                                <div>
+                                    <h5>La Mr.Pit</h5>
+                                    <p>Sólo para expertos</p>
+                                    <h3>$450</h3>
+
+                                </div>
+                                <div class="divbtn"><button class="rbtn"> <a href="#" class="btna"> Agregar</a></button>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
                 <div class="populares1">
                     <div class="populares">
-                        <img src="./assets/photo-menus/Photo Menu (4).png" alt="">
+                        <div class="popularesdiv">
+                            <div class="divpimg">
+                                <img src="./assets/photo-menus/Photo Menu (4).png" alt="">
+                            </div>
+                            <div class="popularesdiv2">
+                                <div>
+                                    <h5>La Mr.Pit</h5>
+                                    <p>Sólo para expertos</p>
+                                    <h3>$750</h3>
+
+                                </div>
+                                <div class="divbtn"><button class="rbtn"> <a href="#" class="btna"> Agregar</a></button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="populares">
-                        <img src="./assets/photo-menus/Photo Menu 7.png" alt="">
+                        <div class="popularesdiv">
+                            <div class="divpimg">
+                            <img src="./assets/photo-menus/Photo Menu 7.png" alt=""></div>
+                            <div class="popularesdiv2">
+                                <div>
+                                    <h5>La Mr.Pit</h5>
+                                    <p>Sólo para expertos</p>
+                                    <h3>$990</h3>
+
+                                </div>
+                                <div class="divbtn"><button class="rbtn"> <a href="#" class="btna"> Agregar</a></button>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="populares">
-                        <img src="./assets/photo-menus/Photo Menu (5).png" alt="">
+                        <div class="popularesdiv">
+                        <div class="divpimg"><img src="./assets/photo-menus/Photo Menu (5).png" alt=""></div>
+                        <div class="popularesdiv2">
+                            <div>
+                                <h5>La Mr.Pit</h5>
+                                <p>Sólo para expertos</p>
+                                <h3>$10</h3>
+
+                            </div>
+                            <div class="divbtn"><button class="rbtn"> <a href="#" class="btna"> Agregar</a></button>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                     <div class="populares">
-                        <img src="./assets/photo-menus/Photo Menu (6).png" alt="">
+                        <div class="popularesdiv">
+                            <div class="divpimg">
+                        <img src="./assets/photo-menus/Photo Menu (6).png" alt=""></div>
+                        <div class="popularesdiv2">
+                            <div>
+                                <h5>La Mr.Pit</h5>
+                                <p>Sólo para expertos</p>
+                                <h3>$Gratis</h3>
+
+                            </div>
+                            <div class="divbtn"><button class="rbtn"> <a href="#" class="btna"> Agregar</a></button>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
 
         </section>
-
     </main>
     <footer>
-        
-            <ul class="footer-links">
-                <li>
-                    <a href="">Terminos de uso</a>
-                </li>
-                <li>
-                    <a href="">Trabaja con Nosotros</a>
-                </li>
-                <li>
-                  <a href="">Soporte</a>  
-                </li>
-            </ul>
-        
-       <div class="final">
-        <p>Hecho️ con ❤ en <span>NUCBAZAPPI</span></p>
-       </div>
+        <div>
+
+            <div><a href="#">
+                    <p>Términos de Uso </p>
+                </a></div>
+            <div><a href="#">
+                    <p>Trabajá con Nosotros</p>
+                </a></div>
+            <div><a href="#">Soporte</a>
+            </div>
+        </div>
+
+        <div>
+            <p> Hecho con <span>❤</span> en <b>NUCBAZZAPI</b></p>
+        </div>
 
     </footer>
 
