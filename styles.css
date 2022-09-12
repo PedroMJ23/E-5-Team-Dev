@@ -330,6 +330,7 @@ hr {
     flex-direction: column;
     gap: 15px;
     width: 100%;
+    
 
 }
 
@@ -343,6 +344,7 @@ hr {
     padding: 5px 10px;
     border-radius: 5px;
     gap: 15px 35px;
+    
 
 
 }
@@ -353,7 +355,7 @@ hr {
     justify-content: center;
     flex-direction: column;
     background: #252525;
-    height: 150px;
+    height: 200px;
     width: 250px;
     color: white;
     padding: 5px 10px;
@@ -411,6 +413,9 @@ hr {
     justify-content: center;
     padding: 5px 0px;
    
+}
+.divpimg{
+    padding-top: 10px 5px;
 }
 
 footer {
