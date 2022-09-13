@@ -1,0 +1,142 @@
+.pizzanav {
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.pizzanav:hover{
+    transform:scale(1.2);
+}
+
+.navbar-list li {
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.navbar-list li:hover {
+    transform: scale(1.2);
+}
+
+.divr1{
+    position: relative;
+    transition: all 0.3s;
+}
+
+.divr1:hover{
+    transform:scale(1.15);
+}
+
+
+.categoria1{
+    position: relative;
+    transition: all 0.3s;
+}
+
+.categoria1:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+
+}
+
+.populares{
+    position: relative;
+    transition: all 0.3s;
+}
+
+.populares:hover{
+    transform: scale(1.1);
+
+}
+
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+    
+}
+
+@keyframes slide-up {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes slide-right {
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(0);
+    }
+
+    
+}
+
+@keyframes rotatex {
+    from{
+        transform: rotateX(360deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+    
+}
+
+.section-1-info h1{
+    animation: fade 1s ease-in, slide-up 1.3s ease-in-out;
+}
+
+.section-1-info h2{
+    animation: fade 1s ease-in, slide-up 1.3s ease-in-out;
+}
+
+.img-sec1 img{
+    animation: fade 1s ease-in, slide-right 1.3s ease-in-out
+}
+
+.section-1-info p{
+    animation: fade 1s ease-in, slide-up 1.3s ease-in-out;
+}
+
+.btn:hover{
+    background: rgb(44, 44, 233);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.rbtn:hover{
+    background: rgb(44, 44, 233) ;
+    cursor: pointer;
+}
+
+footer a{
+    position: relative;
+    padding: 0;
+}
+
+footer a::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: var(--text-white);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.15s ease;
+}
+
+footer a:hover::after{
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
