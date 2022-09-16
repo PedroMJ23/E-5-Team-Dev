@@ -127,7 +127,6 @@ body {
 .img-sec1 {
     display: flex;
 }
-
 .section-1-imagen {
     display: flex;
     position: absolute;
@@ -149,7 +148,7 @@ body {
 
 #section-2 {
     font-family: 'Montserrat';
-    padding: 0px auto;
+    padding: 0px 150px;
 }
 
 #section-2 h2 {
@@ -158,9 +157,7 @@ body {
     font-size: 22px;
     line-height: 131.02%;
     color: var(--text-white);
-    padding: 0px 150px;
-    padding-bottom: 24px;
-
+    padding-bottom: 20px;
 }
 
 .section-3 {
@@ -268,10 +265,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    /* height: 70px;
+    width: 250px; */
     color: white;
     padding: 20px 0px;
     border-radius: 5px;
     gap: 36px;
+    /* box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5); */
 }
 
 .categoria1 {
@@ -377,8 +377,7 @@ hr {
     justify-content: center;
     flex-direction: column;
 }
-
-.popularesdiv2 {
+.popularesdiv2{
     display: flex;
     gap: 3px;
 }
