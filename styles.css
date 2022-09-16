@@ -148,7 +148,6 @@ body {
 
 #section-2 {
     font-family: 'Montserrat';
-    padding: 0px 150px;
 }
 
 #section-2 h2 {
@@ -157,7 +156,7 @@ body {
     font-size: 22px;
     line-height: 131.02%;
     color: var(--text-white);
-    padding-bottom: 20px;
+    padding: 0px 150px 20px;
 }
 
 .section-3 {
@@ -371,16 +370,31 @@ hr {
     color: var(--text-white);
     padding-bottom: 20px;
 }
-.popularesdiv{
+
+.popularesdiv {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 11px;
 }
-.popularesdiv2{
+.popularesdiv2 {
     display: flex;
-    gap: 3px;
+    flex-direction: column;
+    gap: 1px;
 }
+
+.popularesdiv2 div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.popularesdiv2 .preciobtn {
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+}
+
 .popularesdiv2 h5{
     font-style: normal;
     font-weight: 500;
@@ -411,12 +425,16 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px 0px 0px 10px;
-   
+    height: 29px;
+    width: 85px;
 }
 .divpimg{
-    padding-top: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 237px;
 }
+
 
 footer {
     display: flex;
