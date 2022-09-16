@@ -411,7 +411,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 0px;
+    padding: 25px 0px 0px 10px;
    
 }
 .divpimg{
