@@ -27,7 +27,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 41px 110px 0px 65px;
+    margin-top: 41px;
+    margin-left: 65px;
+    margin-right: 110px;
     background-color: var(--background);
 }
 
@@ -71,14 +73,14 @@ body {
     justify-content:space-around;
     align-items: center;
     padding-top: 70px;
-    padding-bottom: 69px;
+    padding-bottom: 119px;
     gap:400px
 }
 
 .section-1-info {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 20px;
     font-family: 'Montserrat';
 }
 
@@ -91,7 +93,6 @@ body {
 }
 
 .section-1-info h2 {
-    font-weight: 700;
     font-size: 51px;
     line-height: 66.82px;
     color: var(--text-white);
@@ -156,12 +157,13 @@ body {
     font-size: 22px;
     line-height: 131.02%;
     color: var(--text-white);
-    padding-bottom: 24px;
+    padding-bottom: 20px;
 }
 
 .section-3 {
     font-family: 'Montserrat';
     background: var(--background);
+    padding: 50px 70px;
     color: var(--text-white);
 }
 
@@ -249,7 +251,7 @@ body {
 }
 
 .section-3 {
-    padding: 84px 150px 74px;
+    padding: 80px 150px;
 }
 
 .section-3 h4 {
@@ -266,7 +268,7 @@ body {
     /* height: 70px;
     width: 250px; */
     color: white;
-    padding: 31px 0px 0px;
+    padding: 20px 0px;
     border-radius: 5px;
     gap: 36px;
     /* box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5); */
@@ -281,6 +283,7 @@ body {
     width: 147px;
     background: #252525;
     color: white;
+    padding: 5px 10px;
     border-radius: 15px;
     gap: 15px;
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
@@ -325,8 +328,10 @@ hr {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    gap: 15px;
     width: 100%;
-    gap: 40px
+    
+
 }
 
 .populares1 {
@@ -336,8 +341,12 @@ hr {
     flex-direction: row;
     width: 100%;
     color: white;
+    padding: 5px 10px;
     border-radius: 5px;
-    gap: 40px;
+    gap: 15px 35px;
+    
+
+
 }
 
 .populares {
@@ -346,10 +355,12 @@ hr {
     justify-content: center;
     flex-direction: column;
     background: #252525;
-    height: 218px;
-    width: 282px;
+    height: 200px;
+    width: 250px;
     color: white;
+    padding: 5px 10px;
     border-radius: 15px;
+    gap: 15px;
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
 }
 .section-4-titulo {
@@ -358,32 +369,18 @@ hr {
     font-size: 22px;
     line-height: 131.02%;
     color: var(--text-white);
-    padding-bottom: 31px;
+    padding-bottom: 20px;
 }
-.popularesdiv {
+.popularesdiv{
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 11px;
 }
-.popularesdiv2 {
+.popularesdiv2{
     display: flex;
-    flex-direction: column;
-    gap: 1px;
+    gap: 3px;
 }
-
-.popularesdiv2 div:first-child {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-.popularesdiv2 .preciobtn {
-    display: flex;
-    align-items: flex-end;
-    justify-content:space-between;
-}
-
 .popularesdiv2 h5{
     font-style: normal;
     font-weight: 500;
@@ -414,11 +411,11 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 29px;
-    width: 85px;
+    padding: 5px 0px;
+   
 }
 .divpimg{
-    width: 237px;
+    padding-top: 10px 5px;
 }
 
 footer {
@@ -430,8 +427,8 @@ footer {
     font-size: 17px;
     color: #FFFFFF;
     background-color: var(--background);
-    gap: 68px;
-    padding: 137px 0px 50px;
+    gap: 50px;
+    padding: 50px 0px;
 }
 
 footer a {
